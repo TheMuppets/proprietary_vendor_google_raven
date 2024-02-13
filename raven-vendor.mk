@@ -107,7 +107,6 @@ PRODUCT_PACKAGES += \
     LLKAgent \
     MyVerizonServices \
     OemRilService \
-    PixelNfc \
     RilConfigService \
     ShannonIms \
     ShannonQualifiedNetworksService \
