@@ -309,18 +309,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HbmSVManager",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/HbmSVManager/HbmSVManager.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "LLKAgent",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/LLKAgent/LLKAgent.apk",
@@ -526,13 +514,6 @@ install_symlink {
 	product_specific: true,
 	installed_location: "priv-app/DMService/lib/arm64/libdmjavaplugin.so",
 	symlink_target: "/product/lib64/libdmjavaplugin.so",
-}
-
-install_symlink {
-	name: "libhbmsvmanager_jni_libhbmsvmanager_jni_symlink64",
-	system_ext_specific: true,
-	installed_location: "priv-app/HbmSVManager/lib/arm64/libhbmsvmanager_jni.so",
-	symlink_target: "/system_ext/lib64/libhbmsvmanager_jni.so",
 }
 
 cc_prebuilt_library_shared {

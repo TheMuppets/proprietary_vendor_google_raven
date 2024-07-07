@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/raven/proprietary/system_ext/lib64/com.google.edgetpu_app_service-V3-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_app_service-V3-ndk.so \
     vendor/google/raven/proprietary/system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_vendor_service-V2-ndk.so \
     vendor/google/raven/proprietary/system_ext/lib64/libedgetpu_dba.google.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libedgetpu_dba.google.so \
-    vendor/google/raven/proprietary/system_ext/lib64/libhbmsvmanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhbmsvmanager_jni.so \
     vendor/google/raven/proprietary/system_ext/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediaadaptor.so \
     vendor/google/raven/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
     vendor/google/raven/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
@@ -104,7 +103,6 @@ PRODUCT_PACKAGES += \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     LLKAgent \
     MyVerizonServices \
     OemRilService \
@@ -128,8 +126,8 @@ PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
     libdmjavaplugin_libdmjavaplugin_symlink32 \
     libdmengine_libdmengine_symlink64 \
-    libdmjavaplugin_libdmjavaplugin_symlink64 \
-    libhbmsvmanager_jni_libhbmsvmanager_jni_symlink64
+    libdmjavaplugin_libdmjavaplugin_symlink64 
+    
 PRODUCT_COPY_FILES += \
     vendor/google/raven/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/raven/proprietary/product/etc/CarrierSettings/2degrees_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/2degrees_nz.pb \
