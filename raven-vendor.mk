@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/raven/proprietary/system_ext/etc/permissions/com.shannon.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.imsservice.xml \
     vendor/google/raven/proprietary/system_ext/etc/permissions/com.shannon.qualifiednetworksservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.qualifiednetworksservice.xml \
     vendor/google/raven/proprietary/system_ext/etc/permissions/com.shannon.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.shannon.rcsservice.xml \
-    vendor/google/raven/proprietary/system_ext/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.verizon.llkagent.xml \
     vendor/google/raven/proprietary/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml \
     vendor/google/raven/proprietary/system_ext/etc/permissions/oemrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oemrilhook.xml \
     vendor/google/raven/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
@@ -105,7 +104,6 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     HbmSVManager \
-    LLKAgent \
     MyVerizonServices \
     OemRilService \
     RilConfigService \
